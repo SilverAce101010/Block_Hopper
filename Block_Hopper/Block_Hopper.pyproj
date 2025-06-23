@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>57545209-8570-4014-924f-db980875f75c</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Block_Hopper.py</StartupFile>
+    <StartupFile>project\Block_Hopper.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,37 +22,38 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Block_Hopper_Proto.py" />
-    <Compile Include="Block_Hopper.py" />
+    <Compile Include="project\Block_Hopper.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="assets\" />
-    <Folder Include="sound\" />
-    <Folder Include="player\" />
+    <Folder Include="project\assets\" />
+    <Folder Include="project\" />
+    <Folder Include="project\sound\" />
+    <Folder Include="project\player\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\frog_print.png" />
-    <Content Include="assets\metal_underlay.png" />
-    <Content Include="assets\pen.png" />
-    <Content Include="assets\play_background.png" />
-    <Content Include="assets\over_background.png" />
-    <Content Include="assets\title2.png" />
-    <Content Include="assets\crate.png" />
-    <Content Include="assets\evil_square.png" />
-    <Content Include="assets\background.png" />
-    <Content Include="assets\wall.png" />
-    <Content Include="assets\title.png" />
-    <Content Include="player\frog_dash.png" />
-    <Content Include="player\frog_idle1.png" />
-    <Content Include="player\frog_jump.png" />
-    <Content Include="player\frog_idle2.png" />
-    <Content Include="player\frog_run1.png" />
-    <Content Include="player\frog_run2.png" />
-    <Content Include="sound\boom.mp3" />
-    <Content Include="sound\block_thud.mp3" />
-    <Content Include="sound\gameplay_music.mp3" />
-    <Content Include="sound\jump.mp3" />
-    <Content Include="sound\menu_music.mp3" />
-    <Content Include="assets\Pixeltype.ttf" />
+    <Content Include="project\assets\frog_print.png" />
+    <Content Include="project\assets\metal_underlay.png" />
+    <Content Include="project\assets\pen.png" />
+    <Content Include="project\assets\play_background.png" />
+    <Content Include="project\assets\over_background.png" />
+    <Content Include="project\assets\title2.png" />
+    <Content Include="project\assets\crate.png" />
+    <Content Include="project\assets\evil_square.png" />
+    <Content Include="project\assets\background.png" />
+    <Content Include="project\assets\wall.png" />
+    <Content Include="project\assets\title.png" />
+    <Content Include="project\player\frog_dash.png" />
+    <Content Include="project\player\frog_idle1.png" />
+    <Content Include="project\player\frog_jump.png" />
+    <Content Include="project\player\frog_idle2.png" />
+    <Content Include="project\player\frog_run1.png" />
+    <Content Include="project\player\frog_run2.png" />
+    <Content Include="project\sound\boom.mp3" />
+    <Content Include="project\sound\block_thud.mp3" />
+    <Content Include="project\sound\gameplay_music.mp3" />
+    <Content Include="project\sound\jump.mp3" />
+    <Content Include="project\sound\menu_music.mp3" />
+    <Content Include="project\assets\Pixeltype.ttf" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
